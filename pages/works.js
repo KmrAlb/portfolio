@@ -9,7 +9,6 @@ import thumbFourPainters from '../public/images/works/debian.jpg'
 import thumbMargelo from '../public/images/works/rover.png'
 import thumbModeTokyo from '../public/images/works/cube.jpg'
 
-
 const Works = () => (
   <Layout title="Works">
     <Container>
@@ -19,12 +18,17 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="comweb" title="Commercial website" thumbnail={thumbInkdrop}>
-            A dynamic commercial website template using html , animate css and javascript
+          <WorkGridItem
+            id="comweb"
+            title="Commercial website"
+            thumbnail={thumbInkdrop}
+          >
+            A dynamic commercial website template using html , animate css and
+            javascript
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem 
+          <WorkGridItem
             id="perweb"
             title="Personal website"
             thumbnail={thumbWalknote}
@@ -39,11 +43,12 @@ const Works = () => (
             title="Commercial server"
             thumbnail={thumbFourPainters}
           >
-           A commercial server , services including (website hosting, ml training, streaming) 
+            A commercial server , services including (website hosting, ml
+            training, streaming)
           </WorkGridItem>
-        </Section> 
+        </Section>
       </SimpleGrid>
-     
+
       <Section delay={6 * 0.1}>
         <Divider my={6} />
 
@@ -52,26 +57,24 @@ const Works = () => (
         </Heading>
       </Section>
 
-
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem id="rover" thumbnail={thumbMargelo} title="Rover">
-           Automated rover: Raspberry Pi, Arduino Uno, ultrasonic sensors
+            Automated rover: Raspberry Pi, Arduino Uno, ultrasonic sensors
           </WorkGridItem>
         </Section>
-       
-       <Section delay={0.3}>
+
+        <Section delay={0.3}>
           <WorkGridItem
             id="cube"
             thumbnail={thumbModeTokyo}
             title="Cube satellite"
           >
-            Cube Satellite deployed via balloon; innovation in space exploration.
+            Cube Satellite deployed via balloon; innovation in space
+            exploration.
           </WorkGridItem>
-              </Section> 
+        </Section>
       </SimpleGrid>
-
-   
     </Container>
   </Layout>
 )

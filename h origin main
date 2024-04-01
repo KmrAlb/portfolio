@@ -1,0 +1,551 @@
+[33mcommit 0c033d3968a75ae8f1407601ed70faf8392a6d00[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Merge: 9098a86 f9efe21
+Author: KmrAlb <alokbkmr@gmail.com>
+Date:   Tue Apr 2 01:16:17 2024 +0530
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit 9098a869a76283aa73f95ff1e4068249ebb612b7[m
+Author: KmrAlb <alokbkmr@gmail.com>
+Date:   Tue Apr 2 00:56:42 2024 +0530
+
+    first commit
+
+[33mcommit aecce1968f4d8dc3a0082d3a8b817450fd982166[m
+Author: KmrAlb <alokbkmr@gmail.com>
+Date:   Tue Apr 2 00:33:52 2024 +0530
+
+    first commit
+
+[33mcommit c1e6bb3bc2efddd69e9b40756ce02fac626f3c1a[m
+Author: KmrAlb <alokbkmr@gmail.com>
+Date:   Tue Apr 2 00:06:04 2024 +0530
+
+    first commit
+
+[33mcommit 00f559d1b405fc0c34bfb3121386f1af92d5dd38[m
+Author: KmrAlb <alokbkmr@gmail.com>
+Date:   Mon Apr 1 23:53:13 2024 +0530
+
+    second commit
+
+[33mcommit ecf66412b9f6cc81371c43a6a6f3ba314ac3c352[m
+Author: KmrAlb <alokbkmr@gmail.com>
+Date:   Mon Apr 1 23:51:00 2024 +0530
+
+    first commit
+
+[33mcommit 658b43c956d171b54f42c16944006d17dbe10fb0[m
+Author: Pau Garcia Chiner <49660697+pauchiner@users.noreply.github.com>
+Date:   Fri Jan 19 11:09:22 2024 +0100
+
+    fix(index): update profile image aspect-ratio
+
+[33mcommit f1fa7a6ffd22382d6d8fd6d0e995b4c3831ef836[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Nov 15 07:57:05 2023 +0900
+
+    fix(wallpapers): fix pricing
+
+[33mcommit 0a53c0cf9c1e99b83ac2026f7ff2f52601db1fb5[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Tue Nov 14 22:39:57 2023 +0900
+
+    chore(analytics): add vercel's web analytics
+
+[33mcommit 03f81161b14e92f36d82e374c9fe63d870bc4bee[m
+Merge: 90f2a98 5408829
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Tue Nov 14 15:35:51 2023 +0900
+
+    Merge pull request #64 from craftzdog/wallpapers
+    
+    Add wallpapers
+
+[33mcommit 5408829b53f374e31e79decc8cb9fc1991fe9cd7[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Tue Nov 14 15:05:27 2023 +0900
+
+    fix(lint): cleanup
+
+[33mcommit 8b2c9b540d0ea8d09fc758cf2036ede908d73c82[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Tue Nov 14 14:43:50 2023 +0900
+
+    feat(wallpapers): add pages and contents
+
+[33mcommit 90f2a98d4381cf2fde03486b3c0f25d55f541832[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Oct 25 13:24:14 2023 +0900
+
+    perf(three): optimize the GLTF file with Draco
+
+[33mcommit b2a9d870f342c6bb80463b3d101d3c815d60ffa1[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Oct 25 13:48:34 2023 +0900
+
+    chore(deps): bump up
+
+[33mcommit 2ac6082d8d57f6918220de848688638fd7e3e10f[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Thu Feb 16 13:18:08 2023 +0900
+
+    fix(index): add a link to my newsletters
+
+[33mcommit db6b537e16a687b91cb8e0629b70f5f562a49764[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Thu Feb 16 13:12:20 2023 +0900
+
+    fix(index): update num of subs
+
+[33mcommit 33d7883f8da3de09f5c5cee8eb9a8c7fa3ba5fb0[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Feb 1 08:36:54 2023 +0900
+
+    fix(debug): revert
+
+[33mcommit 23225eac8a383ac278812d8978361de88125077c[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Feb 1 08:35:50 2023 +0900
+
+    fix(navbar): incorrect link text color for light theme
+    
+    fix #60
+
+[33mcommit 7107c5ade0a8a8c8cd9d13294af151f36e85aadf[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Jan 11 10:26:04 2023 +0900
+
+    Bump up NextJS to 13 (#57)
+    
+    * feat(next): migrate from 12 to 13
+
+[33mcommit 932957d44282a3a11d2141f8525c401ef24aefa3[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Sep 28 20:06:01 2022 +0900
+
+    fix(paragraph): add hyphens
+
+[33mcommit ebcc36100b4eb6cec07f97c8afdaf20d24585e3d[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Mon Sep 26 11:23:24 2022 +0900
+
+    fix(assets): use cdn for the glb file
+
+[33mcommit 280356c23ac53e563e0d555d6ebef58ef6213d49[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Tue Sep 20 16:24:30 2022 +0900
+
+    feat(nav): add a link to the uses website
+
+[33mcommit 708a5210662354209e0d5cc0231f7687fba0b915[m
+Merge: 78d7df7 163c2f3
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Mon Sep 12 15:48:54 2022 +0900
+
+    Merge branch 'master' of ssh://github.com/craftzdog/craftzdog-homepage
+
+[33mcommit 78d7df7dce8665b81689a742d1570df9341be7f9[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Mon Sep 12 15:48:25 2022 +0900
+
+    fix(nav): replace footprint icon with svg image
+
+[33mcommit 163c2f3e604e27aa8cbe62f032b6c5593b4a69b6[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Fri Aug 19 15:22:07 2022 +0900
+
+    fix(three): unmount ThreeJS renderer correctly
+
+[33mcommit 328cd1aba56c1d15263edbcffd0a48964722fda3[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Fri Aug 19 15:07:01 2022 +0900
+
+    feat(deps): bump up the dependencies
+    
+    Upgrade React to 18, Chakra UI to 2
+
+[33mcommit 31aed2047f19be2a3a36b1044940d8c3a7c9eabb[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Fri Aug 19 15:22:07 2022 +0900
+
+    fix(three): unmount ThreeJS renderer correctly
+
+[33mcommit 8a58a6426f001f700a3dcad05e9d1e08c542fe36[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Fri Aug 19 15:07:01 2022 +0900
+
+    feat(deps): bump up the dependencies
+    
+    Upgrade React to 18, Chakra UI to 2
+
+[33mcommit 03115be1360ede6ac726c2e2a92a02ac68c523f9[m
+Merge: 9c0b0cf 97a9125
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Fri Jul 22 14:42:49 2022 +0900
+
+    Merge branch 'master' of ssh://github.com/craftzdog/craftzdog-homepage
+
+[33mcommit 9c0b0cfb50c670b6bf5a55eb7f7bddd878e8f6da[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Fri Jul 22 14:42:43 2022 +0900
+
+    docs(license): add
+
+[33mcommit 97a9125a9ccdf497fd47043f1cb4cc89ff40e286[m
+Author: Mikhail Khaybullin <maikl2020011@gmail.com>
+Date:   Mon Jun 20 11:03:08 2022 +0300
+
+    fix(navbar): change zIndex to 2 (#38)
+    
+    Clicks on navbar link not working if the main content is overlapped
+    fix #37
+
+[33mcommit 9d3fd1f30b88ed23160dd5226ae4ea6cb874f150[m
+Author: Guilherme S. Sousa <47110995+guilherssousa@users.noreply.github.com>
+Date:   Mon May 30 23:17:15 2022 -0300
+
+    fix(margelo work): typo (#34)
+
+[33mcommit 3c70fcfdce7f0c45c953c7e4c844349b30f942fd[m
+Author: Christoph Nakazawa <christoph.pojer@gmail.com>
+Date:   Thu May 26 14:06:30 2022 +0900
+
+    fix(bio): Typo (#32)
+
+[33mcommit c1c6e6500336b8d2ba9df11ce4235f8b717e785c[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Tue May 10 21:55:25 2022 +0900
+
+    feat(index): update self-introduction
+
+[33mcommit 866d4678f1c44670b1ae444c290c8f1882cda3b1[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Tue May 10 21:47:32 2022 +0900
+
+    feat(inkdrop): add a video
+
+[33mcommit 34fe18e31b0c99d0c890c6e5a8634a9fde9be2ea[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Tue May 10 21:47:23 2022 +0900
+
+    feat(posts): add popular posts
+
+[33mcommit fbe9ce588910c856886e6d06b051b5afd8516372[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Tue May 10 21:40:07 2022 +0900
+
+    fix(index): add number of subs
+
+[33mcommit eec0dc298d2306601d3a0d1f00be7831daf7c929[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Tue May 10 21:38:39 2022 +0900
+
+    fix(eslint): cleanup errors
+
+[33mcommit 1092cee652f965cd83fa159b96917274a0d6a8a7[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Tue May 10 21:36:35 2022 +0900
+
+    chore(vercel): prevent bot comments
+
+[33mcommit 4a7044cb53e8959ea679d80cf727bc959460bfe3[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Tue May 10 21:35:49 2022 +0900
+
+    feat(works): add Margelo
+
+[33mcommit 5d47dfb73bc1974e51a0ca3be1e6a415636a5168[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Sun Apr 17 13:13:19 2022 +0900
+
+    chore(dep): bump up stack
+
+[33mcommit 10b4ed6c3f3836322329d9af21e0dc3976b4baaa[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Sun Apr 17 13:04:42 2022 +0900
+
+    fix(index): add backdrop blur filter
+
+[33mcommit ad5fec2d2322ef3b9670ac6cd0e271cab3adc0a2[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Sun Apr 17 13:00:23 2022 +0900
+
+    fix(seo): missing title meta
+
+[33mcommit e26836360a0d11e32be3f9e90708ca0185d9976f[m
+Merge: 1bdcf5e 357914f
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Sun Apr 17 12:52:21 2022 +0900
+
+    Merge branch 'master' of ssh://github.com/craftzdog/craftzdog-homepage
+
+[33mcommit 1bdcf5ed9e35b24322bf993c80cfbe8d8959a224[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Sun Apr 17 12:52:12 2022 +0900
+
+    fix(seo): incorrect image url
+
+[33mcommit 357914f6941b351372de6258a96651cafca94bf2[m
+Author: T/once <72869479+TIMMLOPK@users.noreply.github.com>
+Date:   Mon Feb 21 16:31:33 2022 +0800
+
+    fix(page): Improve index page (#27)
+    
+    * improve(code):<Icon/> is unused
+    
+    * improve(page):replace Image with next/image
+    
+    * Update Next js to 12.1
+
+[33mcommit cd15cf58b05b996020aa9b0938a7a6bccc3a021c[m
+Author: YT Huang <38404369+yt-dev@users.noreply.github.com>
+Date:   Sun Feb 20 13:43:41 2022 +0800
+
+    fix(navbar): unlegal prop (#28)
+    
+    * fix(navbar): unlegal prop
+    * improve(code): rename the _target prop to target
+
+[33mcommit 881aa6b7328a3299277d2172d8f039854e3b4086[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Feb 16 11:17:03 2022 +0900
+
+    fix(navigation): disable scrolling on the top logo link
+
+[33mcommit 482ffd510a665d5e1ac75b45c4b504898e38a3a9[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Feb 16 11:14:56 2022 +0900
+
+    revert(animation): set initial back to true
+
+[33mcommit 408d255fbc1fa5ed4384f7cf347f92703d3a39f0[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Feb 16 11:13:59 2022 +0900
+
+    fix(navigation): disable scroll restoration for back navigations
+
+[33mcommit 5f3b0c45feaf0d456537523619edaf4925d2afab[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Feb 16 11:12:00 2022 +0900
+
+    fix(navigation): disable scroll for links on index page
+
+[33mcommit 13583f16a14ff2151f8a6f6e0b9935eb07522707[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Feb 16 11:10:59 2022 +0900
+
+    revert(404): revert change of #17
+    
+    it does nothing
+
+[33mcommit 8652785d4f1d90a1cee3634486519bea0a95fe74[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Feb 16 11:09:50 2022 +0900
+
+    fix(navigation): scroll to top after the exiting animation
+    
+    related: https://github.com/framer/motion/issues/626
+    
+    fix #25
+
+[33mcommit 150039db9c2edb89bf442e8101f6a9eabb3d4ed6[m
+Merge: 996759d 285e852
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Sat Feb 5 11:04:58 2022 +0900
+
+    Merge pull request #24 from TIMMLOPK/master
+    
+    getServerSideProps is async function
+
+[33mcommit 285e8522dc9366fbc318aa41a6dac5ec955186de[m
+Author: T/once <72869479+TIMMLOPK@users.noreply.github.com>
+Date:   Fri Feb 4 20:34:15 2022 +0800
+
+    Update chakra.js
+
+[33mcommit 996759de469360ddd0a1a6b3f8fe4e413c826e29[m
+Merge: 7db25cd c900a27
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Sun Jan 23 21:22:11 2022 +0900
+
+    Merge pull request #17 from Harry-Hopkinson/master
+    
+    Save theme for 404 page
+
+[33mcommit c900a2728b274f4f3a414a7a3560c2142640980c[m
+Author: Harry-Hopkinson <harryjhopkinson@gmail.com>
+Date:   Sun Jan 23 11:29:59 2022 +0000
+
+    Saves theme for 404 page
+
+[33mcommit 7db25cd44dfa2fa5cd92c17eb39e7542c7263348[m
+Merge: 4addda9 61de73a
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Tue Jan 18 10:58:27 2022 +0900
+
+    Merge pull request #13 from K3NZ11/master
+    
+    fix(theme): get color mode value before page rendering
+
+[33mcommit 61de73a6da4ffe94ba744c2dbabb402e757e5917[m
+Author: Panha <vireakpanha101@gmail.com>
+Date:   Sun Jan 16 17:35:24 2022 +0700
+
+    fix(theme): get color mode value before page rendering
+
+[33mcommit 4addda93efa54a210380c0476bec72ea1c9f5bb3[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Fri Jan 7 17:17:26 2022 +0900
+
+    docs(readme): add license
+
+[33mcommit 9fefd53332870de837fa11612b45bdb59ac323ea[m
+Merge: 05d71e4 d759b67
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Fri Dec 17 12:25:46 2021 +0900
+
+    Merge pull request #10 from fariasmateuss/prettier
+    
+    fix(scripts): prettier option
+
+[33mcommit d759b67fffc3fa24307fc83e255daace3e1151b1[m
+Author: Mateus V. Farias <mateus_vinicius15@outlook.com>
+Date:   Thu Dec 16 23:16:31 2021 -0400
+
+    fix(scripts): prettier option
+    
+    Fixes #9
+
+[33mcommit 05d71e48ad6d03673e7ce0a83f022e6596f09f8a[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Dec 15 13:46:51 2021 +0900
+
+    fix(sns): remove discord link
+
+[33mcommit d2724f8e3fcced731264083062c4c4dd3e317c6d[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Dec 15 12:16:29 2021 +0900
+
+    fix(sns): add language labels
+
+[33mcommit d3a25804a8f11ec00175eeb15141f50032686f25[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Fri Nov 19 09:42:25 2021 +0900
+
+    build(next): use SWC for minifying
+
+[33mcommit 3698290535660cac79977e5d3f455bf0bfe96416[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Fri Nov 19 09:42:01 2021 +0900
+
+    chore(dep): upgrade next to 12
+    
+    and bump up other deps to the latest
+    
+    fix #7
+
+[33mcommit 96423dd468da00a3abb24c3d0857dc4307322c73[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Fri Nov 5 11:54:49 2021 +0900
+
+    fix(navbar): browser prefixes are not added
+    
+    use `css` prop instaed. Ref: https://github.com/emotion-js/emotion/pull/1662
+
+[33mcommit 87e32f61efe9a99927124433df931b2ef870b6af[m
+Merge: 6ee0658 23d667c
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Mon Oct 25 16:44:43 2021 +0900
+
+    Merge pull request #4 from AdePhil/master
+    
+    feat(logo): add transition to image logo
+
+[33mcommit 23d667c6e157b016f620c1357ea56e69ec92201d[m
+Author: Adebisi Ahmed <adebisi.ahmed10@gmail.com>
+Date:   Sat Oct 23 20:01:07 2021 +0100
+
+    fix(logo): add transition to image logo
+
+[33mcommit 6ee065841920fba254c1e8d951ade7d2b2931891[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Sat Oct 23 17:15:12 2021 +0900
+
+    chore(meta): remove email address as notifications are being sent to me from forked repos
+
+[33mcommit 64df14ca75f3826a5a9ebfb58f946a9d15b0b0ee[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Oct 20 17:39:35 2021 +0900
+
+    fix(navbar): make the dropdown menu lazy to avoid dev warning
+    
+    SSR is now disabled for the menu
+    
+    fix #2
+
+[33mcommit c89815378e08bb2cb5c6f0820d73fd0080c1cf1d[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Mon Oct 18 12:45:09 2021 +0900
+
+    perf(dog): lazy load
+
+[33mcommit e09e230fe897e244a09ea1c97a0554850b9b4e5d[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Mon Oct 18 12:20:41 2021 +0900
+
+    fix(readme): typo
+    
+    chakra ui description
+    
+    fix #1
+
+[33mcommit 119417e2ec0c24ae570557d23fb3d0b16b0c7892[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Fri Oct 15 10:41:32 2021 +0900
+
+    docs(readme): add readme
+
+[33mcommit dc06fbd76efcb8e17905e79657b278f651b4e36e[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Oct 13 20:48:06 2021 +0900
+
+    feat(navbar): add source link
+
+[33mcommit 811146de3bb2fb11719942423a99d7ce3b9467c5[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Oct 13 20:05:39 2021 +0900
+
+    feat(meta): add favicon and meta informations for social media
+
+[33mcommit 72e64141d393ad0a33cc5c17de3961f379690d9a[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Oct 13 19:53:29 2021 +0900
+
+    fix(ssr): remove no-ssr because three.js renderer is created in useEffect hook
+
+[33mcommit eaec534aee557af0a4a672d1f1a7b81b8e61fcb5[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Oct 13 19:48:50 2021 +0900
+
+    fix(fonts): use styled jsx instead
+    
+    to avoid initial loading issue on iOS Safari
+
+[33mcommit f59eaf365dc19e7753a7dffc21fbda5a1c2e8ec3[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Oct 13 17:19:00 2021 +0900
+
+    feat(nav): add a link to the source code
+
+[33mcommit 9710da6e6bf7b1d50a877248700c96f17720d79d[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Oct 13 17:18:11 2021 +0900
+
+    fix(theme): typo
+
+[33mcommit cd5c10c24cf159fe8316214522a7d36b37d49144[m
+Author: Takuya Matsuyama <hi@craftz.dog>
+Date:   Wed Oct 13 13:58:38 2021 +0900
+
+    feat(*): initial commit

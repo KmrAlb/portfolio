@@ -11,7 +11,6 @@ import {
   Image
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
@@ -25,21 +24,31 @@ const Work = () => (
         <Image src="/images/works/amembo_icon.png" alt="icon" />
       </Center>
       <P>
-      Our rover was fully automated, capable of autonomously picking up payloads and delivering them from start to destination entirely on its own.
-     </P>
+        Our rover was fully automated, capable of autonomously picking up
+        payloads and delivering them from start to destination entirely on its
+        own.
+      </P>
       <UnorderedList ml={4} my={4}>
-        <ListItem>Successfully participated in the ISRO URSC 2024 Rover Making Competition 。 </ListItem>
-        <ListItem>Selected among the top 75 teams out of 4000 colleges across all over India 。</ListItem>
         <ListItem>
-        Received significant press coverage and recognition from college authorities 。
+          Successfully participated in the ISRO URSC 2024 Rover Making
+          Competition 。{' '}
         </ListItem>
         <ListItem>
-         Developed a fully automated rover capable of independent object detection and transportation 。
+          Selected among the top 75 teams out of 4000 colleges across all over
+          India 。
         </ListItem>
         <ListItem>
-         Rover powered by Raspberry Pi, Arduino Uno, and ultrasonic sensors, showcasing advanced technology integration 。
+          Received significant press coverage and recognition from college
+          authorities 。
         </ListItem>
-     
+        <ListItem>
+          Developed a fully automated rover capable of independent object
+          detection and transportation 。
+        </ListItem>
+        <ListItem>
+          Rover powered by Raspberry Pi, Arduino Uno, and ultrasonic sensors,
+          showcasing advanced technology integration 。
+        </ListItem>
       </UnorderedList>
 
       <List ml={4} my={4}>
@@ -57,14 +66,11 @@ const Work = () => (
             received press coverage and recognition from college authorities
           </Link>
         </ListItem>
-       
       </List>
 
       <Heading as="h4" fontSize={16} my={6}>
         <Center>Visual depiction</Center>
       </Heading>
-
-    
 
       <SimpleGrid columns={2} gap={2}>
         <WorkImage src="/images/works/rover3.jpg" alt="amembo" />

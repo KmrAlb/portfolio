@@ -1,10 +1,4 @@
-import {
-  Container,
-  Badge,
-  Link,
-  List,
-  ListItem,
-} from '@chakra-ui/react'
+import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
@@ -35,13 +29,11 @@ const Work = () => (
           <Meta>Stack</Meta>
           <span>NodeJS, Animate Css, Html</span>
         </ListItem>
-        <ListItem>
-        </ListItem>
-        </List>
-       <WorkImage src="/images/works/web1.png" alt="Inkdrop" />
+        <ListItem></ListItem>
+      </List>
+      <WorkImage src="/images/works/web1.png" alt="Inkdrop" />
       <WorkImage src="/images/works/web3.png" alt="Inkdrop" />
       <WorkImage src="/images/works/web4.png" alt="Inkdrop" />
-
     </Container>
   </Layout>
 )

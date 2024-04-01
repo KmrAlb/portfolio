@@ -73,12 +73,12 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Alok
-          Kumar is a freelance and a software developer based in West Bengal with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves to
-          read novels & poetry, play guitar and sometimes sketching.
+          Alok Kumar is a freelance and a software developer based in West
+          Bengal with a passion for building digital services/stuff he wants. He
+          has a knack for all things launching products, from planning and
+          designing all the way to solving real-life problems with code. When
+          not online, he loves to read novels & poetry, play guitar and
+          sometimes sketching.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -103,14 +103,15 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2023</BioYear>
-          Worked at Mollos Radix Solutions Pvt,Ltd! India   </BioSection>
-                <BioSection>
+          Worked at Mollos Radix Solutions Pvt,Ltd! India{' '}
+        </BioSection>
+        <BioSection>
           <BioYear>2023</BioYear>
           Working at Talisha Space Research Organisation
         </BioSection>
-                <BioSection>
+        <BioSection>
           <BioYear>2027</BioYear>
-          Persuing the B.tech&apos;s Program in the Computer Science and 
+          Persuing the B.tech&apos;s Program in the Computer Science and
           Engineering at Bengal College of Engineering and Technology
         </BioSection>
       </Section>
@@ -178,7 +179,7 @@ const Home = () => (
             title="hobby web"
             thumbnail={thumbYouTube}
           >
-            was bored, so made this instead  (Nest js,html, animate css, js)
+            was bored, so made this instead (Nest js,html, animate css, js)
           </GridItem>
           <GridItem
             href="https://kmralb.github.io/experimental/"
@@ -190,10 +191,11 @@ const Home = () => (
         </SimpleGrid>
 
         <Heading as="h3" variant="section-title">
-         Wanna collab?
+          Wanna collab?
         </Heading>
         <p>
-          Please take a moment to review my work. If you're interested in collaborating or hiring me, please don't hesitate to reach out.
+          Please take a moment to review my work. If you're interested in
+          collaborating or hiring me, please don't hesitate to reach out.
         </p>
 
         <Box align="center" my={4}>

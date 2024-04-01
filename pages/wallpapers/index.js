@@ -1,4 +1,3 @@
-import NextLink from 'next/link'
 import { Box, Container, Heading, SimpleGrid, Link } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
@@ -15,8 +14,9 @@ const Wallpapers = () => (
       </Heading>
 
       <Box my={4}>
-      I offer a diverse range of services encompassing 
-        programming, business development, and more, tailored to meet your specific needs and objectives.
+        I offer a diverse range of services encompassing programming, business
+        development, and more, tailored to meet your specific needs and
+        objectives.
       </Box>
 
       <Section>
@@ -27,7 +27,7 @@ const Wallpapers = () => (
             title="Software & Electronics"
             thumbnail={thumbMachiya}
           >
-          Expert in web, software, networking; boost digital innovation. 
+            Expert in web, software, networking; boost digital innovation.
           </WorkGridItem>
           <WorkGridItem
             category="wallpapers"

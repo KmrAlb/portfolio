@@ -23,8 +23,7 @@ const LogoBox = styled.span`
 
 const Logo = () => {
   return (
-    (<Link href="/" scroll={false}>
-
+    <Link href="/" scroll={false}>
       <LogoBox>
         <FootprintIcon />
         <Text
@@ -33,12 +32,11 @@ const Logo = () => {
           fontWeight="bold"
           ml={3}
         >
-           कुमार आलोक 
+          कुमार आलोक
         </Text>
       </LogoBox>
-
-    </Link>)
-  );
+    </Link>
+  )
 }
 
 export default Logo

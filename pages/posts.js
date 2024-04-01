@@ -2,7 +2,6 @@ import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
-import { Link } from 'react-router-dom'
 
 import mollosradix from '../public/images/works/mollod.jpg'
 import talisha from '../public/images/works/talisha.jpg'
