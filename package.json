@@ -1,7 +1,7 @@
 {
-  "name": "craftzdog-homepage",
+  "name": "homeage",
   "version": "1.0.0",
-  "description": "Takuya's website",
+  "description": "k's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Takuya Matsuyama",
+  "author": "Alok Kumar",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",
@@ -23,6 +23,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
+    "react-router-dom": "^6.22.3",
     "three": "^0.157.0"
   },
   "devDependencies": {

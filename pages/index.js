@@ -16,9 +16,9 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import { IoLogoTwitter, IoLogoLinkedin, IoLogoGithub } from 'react-icons/io5'
+import thumbYouTube from '../public/images/links/web1.png'
+import thumbInkdrop from '../public/images/links/web2.png'
 import Image from 'next/image'
 
 const Home = () => (
@@ -32,15 +32,15 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        Hello, I&apos;m an indie developer based in পশ্চিমবঙ্গ, India!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Alok Kumar
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Digital Craftsman ( Artist / Developer / Engineer )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -59,7 +59,7 @@ const Home = () => (
             overflow="hidden"
           >
             <Image
-              src="/images/takuya.jpg"
+              src="/images/alok.jpg"
               alt="Profile image"
               width="100"
               height="100"
@@ -73,26 +73,12 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
+          Alok
+          Kumar is a freelance and a software developer based in West Bengal with a
           passion for building digital services/stuff he wants. He has a knack
           for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
-            Inkdrop
-          </Link>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <Link
-            as={NextLink}
-            href="https://www.youtube.com/devaslife"
-            passHref
-            target="_blank"
-          >
-            Dev as Life
-          </Link>
-          &quot; has more than 100k subscribers.
+          way to solving real-life problems with code. When not online, he loves to
+          read novels & poetry, play guitar and sometimes sketching.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -112,22 +98,20 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>2005</BioYear>
+          Born in West Bengal (পশ্চিমবঙ্গ) , India.
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>2023</BioYear>
+          Worked at Mollos Radix Solutions Pvt,Ltd! India   </BioSection>
+                <BioSection>
+          <BioYear>2023</BioYear>
+          Working at Talisha Space Research Organisation
         </BioSection>
-        <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
-        </BioSection>
-        <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Working as a freelancer
+                <BioSection>
+          <BioYear>2027</BioYear>
+          Persuing the B.tech&apos;s Program in the Computer Science and 
+          Engineering at Bengal College of Engineering and Technology
         </BioSection>
       </Section>
 
@@ -137,14 +121,14 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
+          <Link href="https://500px.com/p/xkeystrokes" target="_blank">
+            Sketching
           </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
+          , Playing Guitar,{' '}
+          <Link href="https://500px.com/p/xkeystrokes" target="_blank">
             Photography
           </Link>
-          , Leica, Machine Learning
+          , Shitposting, Reading
         </Paragraph>
       </Section>
 
@@ -154,46 +138,35 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/KmrAlb" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @KmrAlb
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://twitter.com/kumar_alok46110" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @inkdrop_app (English)
+                @kumar_alok
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
+            <Link href="https://www.linkedin.com/in/abkmr/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
+                leftIcon={<IoLogoLinkedin />}
               >
-                @craftzdog (日本語)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoInstagram />}
-              >
-                @craftzdog
+                @alok b kumar
               </Button>
             </Link>
           </ListItem>
@@ -201,38 +174,37 @@ const Home = () => (
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
+            href="https://kmralb.github.io/kumar/"
+            title="hobby web"
             thumbnail={thumbYouTube}
           >
-            My YouTube channel (&gt;150k subs)
+            was bored, so made this instead  (Nest js,html, animate css, js)
           </GridItem>
           <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
+            href="https://kmralb.github.io/experimental/"
+            title="2nd ex personal web"
             thumbnail={thumbInkdrop}
           >
-            A Markdown note-taking app
+            A simple static personal website (html,css,js)
           </GridItem>
         </SimpleGrid>
 
         <Heading as="h3" variant="section-title">
-          Newsletter
+         Wanna collab?
         </Heading>
         <p>
-          Join me on a behind-the-scenes coding journey. Weekly updates on
-          projects, tutorials, and videos
+          Please take a moment to review my work. If you're interested in collaborating or hiring me, please don't hesitate to reach out.
         </p>
 
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="https://www.devas.life/"
+            href="mailto:kumarbalialok@protonmail.com"
             scroll={false}
             leftIcon={<EmailIcon />}
             colorScheme="teal"
           >
-            Sign up my newsletter here
+            Message me here
           </Button>
         </Box>
       </Section>
