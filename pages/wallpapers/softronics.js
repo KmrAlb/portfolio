@@ -38,9 +38,7 @@ const Wallpaper = () => (
             deliver exceptional results, Click below to collaborate
           </em>
         </Box>
-      </Box>
-
-      <Box align="center" my={4}>
+        <Box align="center" my={4}>
         <Button
           as={NextLink}
           href="mailto:kumarbalialok@protonmail.com"
@@ -51,6 +49,9 @@ const Wallpaper = () => (
           Message me here
         </Button>
       </Box>
+      </Box>
+
+      
 
       <WorkImage src="/images/works/work1.jpg" alt="Margelo" />
 

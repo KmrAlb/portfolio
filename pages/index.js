@@ -175,14 +175,14 @@ Hello, I&#39;m an indie developer based in পশ্চিমবঙ্গ, India
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             href="https://kmralb.github.io/kumar/"
-            title="hobby web"
+            title="commercial web"
             thumbnail={thumbYouTube}
           >
-            was bored, so made this instead (Nest js,html, animate css, js)
+            a interactive animated website  (Nest js,html, animate css, js)
           </GridItem>
           <GridItem
             href="https://kmralb.github.io/experimental/"
-            title="2nd ex personal web"
+            title="ex personal web"
             thumbnail={thumbInkdrop}
           >
             A simple static personal website (html,css,js)
@@ -193,8 +193,7 @@ Hello, I&#39;m an indie developer based in পশ্চিমবঙ্গ, India
           Wanna collab?
         </Heading>
         <p>
-        Pursuing the B.tech&#39;s Program in the Computer Science and
-Engineering at Bengal College of Engineering and Technology
+        Passionate about blending art and code to craft meaningful digital experiences. Let&#39;s collaborate and make magic happen!
         </p>
 
         <Box align="center" my={4}>
