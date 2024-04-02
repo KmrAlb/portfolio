@@ -7,11 +7,11 @@ import { WorkImage } from '../../components/work'
 import { EmailIcon } from '@chakra-ui/icons'
 
 const Wallpaper = () => (
-  <Layout title="business devlopment">
+  <Layout title="business development">
     <Container>
-      <Title>Business devlopment</Title>
+      <Title>Business development</Title>
       <P>
-        As an experienced Business Development Executive, I've had the privilege
+        As an experienced Business Development Executive, I&apos;ve had the privilege
         of collaborating with reputable companies, including Mollos Radix
         Solution Pvt Ltd. During my tenure there, I spearheaded initiatives that
         significantly bolstered sales figures, showcasing my adeptness in

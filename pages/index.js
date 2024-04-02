@@ -1,4 +1,4 @@
-import NextLink from 'next/link'
+import NextLink from 'next/link';
 import {
   Link,
   Container,
@@ -9,17 +9,17 @@ import {
   List,
   ListItem,
   useColorModeValue
-} from '@chakra-ui/react'
-import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
-import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
-import Layout from '../components/layouts/article'
-import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoLinkedin, IoLogoGithub } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/web1.png'
-import thumbInkdrop from '../public/images/links/web2.png'
-import Image from 'next/image'
+} from '@chakra-ui/react';
+import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons';
+import Paragraph from '../components/paragraph';
+import { BioSection, BioYear } from '../components/bio';
+import Layout from '../components/layouts/article';
+import Section from '../components/section';
+import { GridItem } from '../components/grid-item';
+import { IoLogoTwitter, IoLogoLinkedin, IoLogoGithub } from 'react-icons/io5';
+import thumbYouTube from '../public/images/links/web1.png';
+import thumbInkdrop from '../public/images/links/web2.png';
+import Image from 'next/image';
 
 const Home = () => (
   <Layout>
@@ -32,8 +32,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie developer based in পশ্চিমবঙ্গ, India!
-      </Box>
+Hello, I&#39;m an indie developer based in পশ্চিমবঙ্গ, India!      </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
@@ -77,7 +76,7 @@ const Home = () => (
           Bengal with a passion for building digital services/stuff he wants. He
           has a knack for all things launching products, from planning and
           designing all the way to solving real-life problems with code. When
-          not online, he loves to read novels & poetry, play guitar and
+          not online, he loves to read novels &amp; poetry, play guitar and
           sometimes sketching.
         </Paragraph>
         <Box align="center" my={4}>
@@ -111,7 +110,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2027</BioYear>
-          Persuing the B.tech&apos;s Program in the Computer Science and
+          Pursuing the B.tech&apos;s Program in the Computer Science and
           Engineering at Bengal College of Engineering and Technology
         </BioSection>
       </Section>
@@ -194,8 +193,8 @@ const Home = () => (
           Wanna collab?
         </Heading>
         <p>
-          Please take a moment to review my work. If you're interested in
-          collaborating or hiring me, please don't hesitate to reach out.
+        Pursuing the B.tech&#39;s Program in the Computer Science and
+Engineering at Bengal College of Engineering and Technology
         </p>
 
         <Box align="center" my={4}>
@@ -212,7 +211,7 @@ const Home = () => (
       </Section>
     </Container>
   </Layout>
-)
+);
 
-export default Home
-export { getServerSideProps } from '../components/chakra'
+export default Home;
+export { getServerSideProps } from '../components/chakra';

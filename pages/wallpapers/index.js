@@ -1,4 +1,4 @@
-import { Box, Container, Heading, SimpleGrid, Link } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid , Box } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
 import { WorkGridItem } from '../../components/grid-item'
@@ -10,7 +10,7 @@ const Wallpapers = () => (
   <Layout title="My service">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        My service's
+        My services
       </Heading>
 
       <Box my={4}>
@@ -32,7 +32,7 @@ const Wallpapers = () => (
           <WorkGridItem
             category="wallpapers"
             id="business"
-            title="Business Devlopment"
+            title="Business Development"
             thumbnail={thumbCherryBlossoms}
           >
             1-year tech business dev: strategize, analyze, grow efficiently.
@@ -45,3 +45,4 @@ const Wallpapers = () => (
 
 export default Wallpapers
 export { getServerSideProps } from '../../components/chakra'
+

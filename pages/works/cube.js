@@ -12,16 +12,16 @@ const Work = () => (
       </Title>
       <P>
         We deployed a Cube Satellite via high-altitude balloon, advancing space
-        exploration with precision and innovation Our achievement garnered
+        exploration with precision and innovation. Our achievement garnered
         widespread attention, with numerous
         <Link
           href="https://www.linkedin.com/posts/talisha-space-research-organization-63b746292_talishaspace-isro-abirghosh-activity-7162670549800796160-ylcY?utm_source=share&utm_medium=member_desktop"
           target="_blank"
         >
           newspaper <ExternalLinkIcon mx="2px" />
-        </Link>
+        </Link>{' '}
         covering our groundbreaking story of scientific discovery and
-        technological prowess."
+        technological prowess.
       </P>
       <P>
         हमने सटीकता और नवीनता के साथ अंतरिक्ष अन्वेषण को आगे बढ़ाते हुए, उच्च

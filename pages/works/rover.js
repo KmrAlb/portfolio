@@ -31,34 +31,34 @@ const Work = () => (
       <UnorderedList ml={4} my={4}>
         <ListItem>
           Successfully participated in the ISRO URSC 2024 Rover Making
-          Competition 。{' '}
+          Competition.
         </ListItem>
         <ListItem>
           Selected among the top 75 teams out of 4000 colleges across all over
-          India 。
+          India.
         </ListItem>
         <ListItem>
           Received significant press coverage and recognition from college
-          authorities 。
+          authorities.
         </ListItem>
         <ListItem>
           Developed a fully automated rover capable of independent object
-          detection and transportation 。
+          detection and transportation.
         </ListItem>
         <ListItem>
           Rover powered by Raspberry Pi, Arduino Uno, and ultrasonic sensors,
-          showcasing advanced technology integration 。
+          showcasing advanced technology integration.
         </ListItem>
       </UnorderedList>
 
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Organizer</Meta>
-          <span>ISRO ursc 2024'</span>
+          <span>ISRO URSC 2024</span>
         </ListItem>
         <ListItem>
           <Meta>Integration</Meta>
-          <span>deep learning , ai&ml , audrino uno , raphberry pi </span>
+          <span>deep learning, ai & ml, Arduino Uno, Raspberry Pi</span>
         </ListItem>
         <ListItem>
           <Meta>Media coverage</Meta>
