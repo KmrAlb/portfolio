@@ -20,9 +20,7 @@ const Work = () => (
       <Title>
         Rover <Badge>2024</Badge>
       </Title>
-      <Center my={6}>
-        <Image src="/images/works/amembo_icon.png" alt="icon" />
-      </Center>
+     
       <P>
         Our rover was fully automated, capable of autonomously picking up
         payloads and delivering them from start to destination entirely on its
