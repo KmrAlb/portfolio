@@ -178,7 +178,7 @@ Hello, I&#39;m an indie developer based in পশ্চিমবঙ্গ, India
             title="commercial web"
             thumbnail={thumbYouTube}
           >
-            a interactive animated website  (Nest js,html, animate css, js)
+            An interactive animated website  (Nest js,html, animate css, js)
           </GridItem>
           <GridItem
             href="https://kmralb.github.io/experimental/"
@@ -193,7 +193,7 @@ Hello, I&#39;m an indie developer based in পশ্চিমবঙ্গ, India
           Wanna collab?
         </Heading>
         <p>
-        Passionate about blending art and code to craft meaningful digital experiences. Let&#39;s collaborate and make magic happen!
+        Passionate about blending art and code to craft meaningful digital experiences, Let&#39;s collaborate and make magic happen!
         </p>
 
         <Box align="center" my={4}>
