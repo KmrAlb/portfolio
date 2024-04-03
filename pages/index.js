@@ -58,7 +58,7 @@ Hello, I&#39;m an indie developer based in পশ্চিমবঙ্গ, India
             overflow="hidden"
           >
             <Image
-              src="/images/alok.jpg"
+              src="/images/alok.webp"
               alt="Profile image"
               width="100"
               height="100"
