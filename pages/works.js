@@ -3,11 +3,11 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbInkdrop from '../public/images/works/web1.png'
-import thumbWalknote from '../public/images/works/web2.png'
-import thumbFourPainters from '../public/images/works/debian.jpg'
-import thumbMargelo from '../public/images/works/rover.png'
-import thumbModeTokyo from '../public/images/works/cube.jpg'
+import thumbInkdrop from '../public/images/works/web1.webp'
+import thumbWalknote from '../public/images/works/web2.webp'
+import thumbFourPainters from '../public/images/works/debian.webp'
+import thumbMargelo from '../public/images/works/rover.webp'
+import thumbModeTokyo from '../public/images/works/cube.webp'
 
 const Works = () => (
   <Layout title="Works">

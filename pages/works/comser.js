@@ -35,10 +35,10 @@ const Work = () => (
         <Center> Displaying service hosted </Center>
       </Heading>
 
-      <WorkImage src="/images/works/server4.png" />
-      <WorkImage src="/images/works/server3.png" />
-      <WorkImage src="/images/works/server1.png" />
-      <WorkImage src="/images/works/server2.png" />
+      <WorkImage src="/images/works/server4.webp" />
+      <WorkImage src="/images/works/server3.webp" />
+      <WorkImage src="/images/works/server1.webp" />
+      <WorkImage src="/images/works/server2.webp" />
     </Container>
   </Layout>
 )

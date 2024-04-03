@@ -31,9 +31,9 @@ const Experience = () => (
         </ListItem>
         <ListItem></ListItem>
       </List>
-      <WorkImage src="/images/works/web1.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/web3.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/web4.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/web1.webp" alt="Inkdrop" />
+      <WorkImage src="/images/works/web3.webp" alt="Inkdrop" />
+      <WorkImage src="/images/works/web4.webp" alt="Inkdrop" />
     </Container>
   </Layout>
 )

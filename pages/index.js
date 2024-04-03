@@ -17,8 +17,8 @@ import Layout from '../components/layouts/article';
 import Section from '../components/section';
 import { GridItem } from '../components/grid-item';
 import { IoLogoTwitter, IoLogoLinkedin, IoLogoGithub } from 'react-icons/io5';
-import thumbYouTube from '../public/images/links/web1.png';
-import thumbInkdrop from '../public/images/links/web2.png';
+import thumbYouTube from '../public/images/links/web1.webp';
+import thumbInkdrop from '../public/images/links/web2.webp';
 import Image from 'next/image';
 
 const Home = () => (

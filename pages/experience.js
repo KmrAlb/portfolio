@@ -3,9 +3,9 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import mollosradix from '../public/images/works/mollod.jpg'
-import talisha from '../public/images/works/talisha.jpg'
-import nsdc from '../public/images/works/nsdc.jpg'
+import mollosradix from '../public/images/works/mollod.webp'
+import talisha from '../public/images/works/talisha.webp'
+import nsdc from '../public/images/works/nsdc.webp'
 
 const Experience = () => (
   <Layout title="Experience">

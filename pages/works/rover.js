@@ -70,11 +70,11 @@ const Work = () => (
       </Heading>
 
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/rover3.jpg" alt="amembo" />
-        <WorkImage src="/images/works/rover0.jpg" alt="amembo" />
+        <WorkImage src="/images/works/rover3.webp" alt="amembo" />
+        <WorkImage src="/images/works/rover0.webp" alt="amembo" />
       </SimpleGrid>
-      <WorkImage src="/images/works/rover2.png" alt="amembo" />
-      <WorkImage src="/images/works/rover4.jpg" alt="amembo" />
+      <WorkImage src="/images/works/rover2.webp" alt="amembo" />
+      <WorkImage src="/images/works/rover4.webp" alt="amembo" />
     </Container>
   </Layout>
 )

@@ -56,10 +56,10 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/cube4.jpg" alt="mode.tokyo" />
-      <WorkImage src="/images/works/cube4.png" alt="mode.tokyo" />
-      <WorkImage src="/images/works/cube2.jpg" alt="mode.tokyo" />
-      <WorkImage src="/images/works/cube3.jpg" alt="mode.tokyo" />
+      <WorkImage src="/images/works/cube4.webp" alt="mode.tokyo" />
+      <WorkImage src="/images/works/cube4.webp" alt="mode.tokyo" />
+      <WorkImage src="/images/works/cube2.webp" alt="mode.tokyo" />
+      <WorkImage src="/images/works/cube3.webp" alt="mode.tokyo" />
     </Container>
   </Layout>
 )

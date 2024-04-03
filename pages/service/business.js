@@ -49,7 +49,7 @@ const Wallpaper = () => (
         </Box>
       </Box>
 
-      <WorkImage src="/images/works/business.jpg" alt="Margelo" />
+      <WorkImage src="/images/works/business.webp" alt="Margelo" />
 
       <P>
         Through strategic planning and a keen understanding of market dynamics,

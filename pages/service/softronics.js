@@ -53,7 +53,7 @@ const Wallpaper = () => (
 
       
 
-      <WorkImage src="/images/works/work1.jpg" alt="Margelo" />
+      <WorkImage src="/images/works/work1.webp" alt="Margelo" />
 
       <P>
         My passion for technology and dedication to continuous learning make me
