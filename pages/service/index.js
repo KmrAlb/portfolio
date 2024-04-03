@@ -6,7 +6,7 @@ import { WorkGridItem } from '../../components/grid-item'
 import thumbCherryBlossoms from '../../public/images/wallpapers/cherry-blossoms/ls-13.jpg'
 import thumbMachiya from '../../public/images/wallpapers/machiya/program.jpg'
 
-const Wallpapers = () => (
+const service = () => (
   <Layout title="My service">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
@@ -22,7 +22,7 @@ const Wallpapers = () => (
       <Section>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <WorkGridItem
-            category="wallpapers"
+            category="service"
             id="softronics"
             title="Software & Electronics"
             thumbnail={thumbMachiya}
@@ -30,7 +30,7 @@ const Wallpapers = () => (
             Expert in web, software, networking; boost digital innovation.
           </WorkGridItem>
           <WorkGridItem
-            category="wallpapers"
+            category="service"
             id="business"
             title="Business Development"
             thumbnail={thumbCherryBlossoms}
@@ -43,6 +43,6 @@ const Wallpapers = () => (
   </Layout>
 )
 
-export default Wallpapers
+export default service
 export { getServerSideProps } from '../../components/chakra'
 

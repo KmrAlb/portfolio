@@ -7,7 +7,7 @@ import { WorkImage } from '../../components/work';
 import { EmailIcon } from '@chakra-ui/icons';
 
 const Wallpaper = () => (
-  <Layout title="Machiya coding wallpaper pack">
+  <Layout title="Software development && electronics">
     <Container>
       <Title>Software development &amp;&amp; electronics</Title>
 

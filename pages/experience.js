@@ -7,11 +7,11 @@ import mollosradix from '../public/images/works/mollod.jpg'
 import talisha from '../public/images/works/talisha.jpg'
 import nsdc from '../public/images/works/nsdc.jpg'
 
-const Posts = () => (
-  <Layout title="Posts">
+const Experience = () => (
+  <Layout title="Experience">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Exoerience
+        Experience
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
@@ -51,5 +51,5 @@ const Posts = () => (
   </Layout>
 )
 
-export default Posts
+export default Experience
 export { getServerSideProps } from '../components/chakra'

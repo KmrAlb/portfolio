@@ -80,10 +80,10 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="/wallpapers" path={path}>
+          <LinkItem href="/service" path={path}>
             Service
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
+          <LinkItem href="/experience" path={path}>
             Experience
           </LinkItem>
           <LinkItem
@@ -118,10 +118,10 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/works">
                   Works
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/wallpapers">
+                <MenuItem as={MenuLink} href="/service">
                   Service
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/posts">
+                <MenuItem as={MenuLink} href="/experience">
                   Experience
                 </MenuItem>
 

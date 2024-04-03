@@ -4,7 +4,7 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
-const Post = () => (
+const Experience = () => (
   <Layout title="mollos">
     <Container>
       <Title>
@@ -38,5 +38,5 @@ const Post = () => (
   </Layout>
 )
 
-export default Post
+export default Experience
 export { getServerSideProps } from '../../components/chakra'
