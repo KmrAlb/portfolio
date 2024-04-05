@@ -11,8 +11,7 @@ const Work = () => (
         Commercial website <Badge>2024</Badge>
       </Title>
       <P>
-        A Markdown note-taking app with 100+ plugins, cross-platform and
-        encrypted data sync support. The life-time revenue is more than $300k.
+        This is a customizable commercial website template crafted using HTML, CSS, and JavaScript. Perfect for businesses seeking a professional online presence with interactive features."
       </P>
       <List ml={4} my={4}>
         <ListItem>
