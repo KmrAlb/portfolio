@@ -1,7 +1,6 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import Links from 'next/link'
 
 import { WorkGridItem } from '../components/grid-item'
 import mollosradix from '../public/images/works/mollos0.webp'

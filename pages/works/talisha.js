@@ -11,16 +11,18 @@ const Experience = () => (
         Computer Engineer <Badge>2023</Badge>
       </Title>
       <P>
-      Working for Talisha Apace Organization as a computer engineer and HR specialist. I contributed to a 
-      cube satellite project and developed a fully automated rover that autonomously picked up and delivered payloads from start to destination
+        Working for Talisha Apace Organization as a computer engineer and HR specialist. I contributed to a 
+        cube satellite project and developed a fully automated rover that autonomously picked up and delivered payloads from start to destination
       </P>
       <UnorderedList ml={4} my={4}>
         <ListItem>
-        Participated in the rover mission, achieving selection among the top 75 teams nationwide        </ListItem>
+          Participated in the rover mission, achieving selection among the top 75 teams nationwide
+        </ListItem>
         <ListItem>
-        Contributed to the "Mission Orbit" cube satellite project        </ListItem>
+          Contributed to the &quot;Mission Orbit&quot; cube satellite project
+        </ListItem>
         <ListItem>
-        Developed and maintained the company website
+          Developed and maintained the company website
         </ListItem>
       </UnorderedList>
       <List ml={4} my={4}>
@@ -32,7 +34,7 @@ const Experience = () => (
         </ListItem>
         <ListItem>
           <Meta>Position</Meta>
-          <span>Computer engineer & hr</span>
+          <span>Computer engineer &amp; hr</span>
         </ListItem>
         <ListItem>
           <Meta>Served</Meta>
