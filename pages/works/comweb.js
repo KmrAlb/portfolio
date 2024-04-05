@@ -10,10 +10,9 @@ const Work = () => (
       <Title>
         Commercial website <Badge>2024</Badge>
       </Title>
-      <P>
-        This is a customizable commercial website template crafted using HTML, CSS, and JavaScript. Perfect for businesses seeking a professional online presence with interactive features."
-      </P>
-      <List ml={4} my={4}>
+     <P>
+        This is a customizable commercial website template crafted using HTML, CSS, and JavaScript. Perfect for businesses seeking a professional online presence with interactive features.
+      </P>      <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
           <Link href="https://kmralb.github.io/kumar/">
