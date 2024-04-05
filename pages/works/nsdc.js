@@ -5,35 +5,36 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Experience = () => (
-  <Layout title="mollos radix">
+  <Layout title="nsdc">
     <Container>
       <Title>
-        Business devlopment executive <Badge>2023</Badge>
+        Electrical technician <Badge>2022</Badge>
       </Title>
       <P>
-        A Markdown note-taking app with 100+ plugins, cross-platform and
-        encrypted data sync support. The life-time revenue is more than $300k.
+      I served as an Electrical Technician at the
+       National Skill Development Corporation, specializing in electrical connectivity and electronics troubleshooting within the field
       </P>
+      
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://kmralb.github.io/kumar/">
-            https://kmralb.github.io/kumar/ <ExternalLinkIcon mx="2px" />
+          <Link href="https://nsdcindia.org/">
+          https://nsdcindia.org/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
-          <Meta>Platform</Meta>
-          <span>Windows/macOS/Linux/iOS/Android</span>
+          <Meta>Position</Meta>
+          <span>Electrical technicain</span>
         </ListItem>
         <ListItem>
-          <Meta>Stack</Meta>
-          <span>NodeJS, Animate Css, Html</span>
+          <Meta>Served</Meta>
+          <span>november 2022 - september 2023</span>
         </ListItem>
         <ListItem></ListItem>
       </List>
-      <WorkImage src="/images/works/web1.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/web3.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/web4.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/nsdc.webp" alt="Inkdrop" />
+      <WorkImage src="/images/works/nsdc4.webp" alt="Inkdrop" />
+      <WorkImage src="/images/works/nsdc3.webp" alt="Inkdrop" />
     </Container>
   </Layout>
 )

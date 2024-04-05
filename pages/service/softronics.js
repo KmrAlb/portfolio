@@ -6,7 +6,7 @@ import Layout from '../../components/layouts/article';
 import { WorkImage } from '../../components/work';
 import { EmailIcon } from '@chakra-ui/icons';
 
-const Wallpaper = () => (
+const Service = () => (
   <Layout title="Software development && electronics">
     <Container>
       <Title>Software development &amp;&amp; electronics</Title>
@@ -64,5 +64,5 @@ const Wallpaper = () => (
   </Layout>
 );
 
-export default Wallpaper;
+export default Service;
 export { getServerSideProps } from '../../components/chakra';

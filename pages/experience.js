@@ -1,11 +1,12 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { WorkGridItem } from '../components/grid-item'
+import Links from 'next/link'
 
-import mollosradix from '../public/images/works/mollod.webp'
-import talisha from '../public/images/works/talisha.webp'
-import nsdc from '../public/images/works/nsdc.webp'
+import { WorkGridItem } from '../components/grid-item'
+import mollosradix from '../public/images/works/mollos0.webp'
+import talisha from '../public/images/works/rover000.webp'
+import nsdc from '../public/images/works/nsdc0.webp'
 
 const Experience = () => (
   <Layout title="Experience">
