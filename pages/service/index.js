@@ -27,7 +27,7 @@ const service = () => (
             title="Software & Electronics"
             thumbnail={thumbMachiya}
           >
-            Expert in web, software, networking; boost digital innovation.
+            Skilled in web, software, networking; boost digital innovation.
           </WorkGridItem>
           <WorkGridItem
             category="service"
