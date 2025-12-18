@@ -76,8 +76,8 @@ Hello, I&#39;m an indie developer based in পশ্চিমবঙ্গ, India
           Bengal with a passion for building digital services/stuff he wants. He
           has a knack for all things launching products, from planning and
           designing all the way to solving real-life problems with code. When
-          not online, he loves to read novels &amp; poetry, play guitar and
-          sometimes sketching.
+          not online, he likes to sleep and
+          
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -123,10 +123,6 @@ Hello, I&#39;m an indie developer based in পশ্চিমবঙ্গ, India
           Art, Music,{' '}
           <Link href="https://500px.com/p/xkeystrokes" target="_blank">
             Sketching
-          </Link>
-          , Playing Guitar,{' '}
-          <Link href="https://500px.com/p/xkeystrokes" target="_blank">
-            Photography
           </Link>
           , Shitposting, Reading
         </Paragraph>
