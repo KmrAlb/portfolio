@@ -76,7 +76,7 @@ Hello, I&#39;m an indie developer based in পশ্চিমবঙ্গ, India
           Bengal with a passion for building digital services/stuff he wants. He
           has a knack for all things launching products, from planning and
           designing all the way to solving real-life problems with code. When
-          not online, he likes to sleep and
+          not online, he likes to sleep 
           
         </Paragraph>
         <Box align="center" my={4}>
